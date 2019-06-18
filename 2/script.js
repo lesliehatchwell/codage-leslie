@@ -1,10 +1,12 @@
 $ (document) .ready(function() {
 	$( "p" ).on( "click", function() {
-		 if ($("p").hasClass ('maclasserouge')){
-		 	$("p").removeClass('maclasserouge')
+		 if ($(this).hasClass ('maclasserouge')){
+		 	$(this).removeClass('maclasserouge')
 		 }else{
-		$("p").addClass ('maclasserouge')
+		$(this).addClass ('maclasserouge')
 		 }
+
+		 $(this).html("HELLO")
 	});
 });
 
