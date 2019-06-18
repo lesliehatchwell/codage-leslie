@@ -86,12 +86,17 @@ a:hover {
   top:1px;
 }
 
-.feature {border: 14px solid #FF33CE;
-  margin: 15px;
+.feature,.defi{
+  border: 1px solid #F2F2F2;
+  background: #FAFAFA;
+  margin: 20px;
   padding: 15px 0;
-  text-align:center;
-  width:400px;
-  background: #FFF933}
+  text-align: center;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
  #apropos {border: 14px solid #FF33CE;
   display: flex;
@@ -104,12 +109,16 @@ a:hover {
   color: #FF33CE;
 }
 
-.maclasserouge {
-color: #FF3333
+#welcome{
+  background-color: #E396C5;
+  text-align: center;
+  padding: 50px;
+  color: white;
 }
 
-.black {
-color:black;
+#welcome h4{
+ font-size: 50px;
 }
+
 #apropos h2 {color: #FF33CE)
 
