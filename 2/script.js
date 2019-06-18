@@ -1,4 +1,7 @@
 $ (document) .ready(function() {
 alert("Bienvenue")
-$ ("p").addClass('maclasserouge') ;
+	$( "p" ).on( "click", function() {
+ 		$("p").addClass('maclasserouge');
+    });
 }); 
+
