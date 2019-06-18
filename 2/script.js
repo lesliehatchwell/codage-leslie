@@ -1,7 +1,10 @@
 $ (document) .ready(function() {
-alert("Bienvenue")
 	$( "p" ).on( "click", function() {
- 		$("p").addClass('maclasserouge');
-    });
-}); 
+		 if ($("p").hasClass ('maclasserouge')){
+		 	$("p").removeClass('maclasserouge')
+		 }else{
+		$("p").addClass ('maclasserouge')
+		 }
+	});
+});
 
